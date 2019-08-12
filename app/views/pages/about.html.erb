@@ -1,0 +1,44 @@
+<!doctype html>
+<title>About</title>
+<style>
+  * {
+   box-sizing: border-box; 
+  }
+  body {
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+  }
+  #main > article {
+    flex: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+    background: lightgrey;
+  }
+  #main > nav {
+    order: -1;
+  }
+  header, footer, article, nav, aside {
+    padding: 1em;
+  }
+  header, footer {
+    background: grey;
+    height: 20vh;
+  }
+</style>
+<body>
+  <header>About this website</header>
+  <div id="main">
+    <article>
+        I will be sporadically updating this page with all that I am doing in my life, this is including but not limited to work accomplishments, personal growth, resumes and networking, travel, blogging, and whatever else I feel like. I am creating this page in an online ruby on rails course, and using the skills I gain from it to create this site and showcase what I can do.
+    </article>
+  </div>
+  <footer>
+    Here are some links<br>
+    <%= link_to 'homepage', root_path %>
+  </footer>
+</body>
