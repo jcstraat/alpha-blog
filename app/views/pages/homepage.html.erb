@@ -1,62 +1,9 @@
 <!doctype html>
-<title>Joel Straatman's Webpage</title>
-<style>
-  * {
-   box-sizing: border-box; 
-  }
-  body {
-    margin: 0;
-  }
-  #main {
-    display: flex;
-    min-height: calc(100vh - 40vh);
-  }
-  #main > article {
-    flex: 1;
-  }
-  #main > nav, 
-  #main > aside {
-    flex: 0 0 20vw;
-    background: lightgrey;
-  }
-  #main > nav {
-    order: -1;
-  }
-  header, footer, article, nav, aside {
-    padding: 1em;
-  }
-  header, footer {
-    background: grey;
-    height: 20vh;
-  }
-</style>
 <body>
-  <header>Welcome to my Adventures in learning Rails</header>
   <div id="main">
-    <article>
-        <%= image_tag 'joel_straatman.jpg', class: "mx-auto d-block" %>
-        <h3>This is me<br></h3>
-        <div>
-        Have you ever heard the tale of dark plageous the wise, its not a story a jedi would tell you, for the meme potential is far too strong. Im really just typing words out trying to fill space to see what happens. Fuck yeah send it
-        Have you ever heard the tale of dark plageous the wise, its not a story a jedi would tell you, for the meme potential is far too strong. Im really just typing words out trying to fill space to see what happens. Fuck yeah send it
-        Have you ever heard the tale of dark plageous the wise, its not a story a jedi would tell you, for the meme potential is far too strong. Im really just typing words out trying to fill space to see what happens. Fuck yeah send it
-        Have you ever heard the tale of dark plageous the wise, its not a story a jedi would tell you, for the meme potential is far too strong. Im really just typing words out trying to fill space to see what happens. Fuck yeah send it
-        Have you ever heard the tale of dark plageous the wise, its not a story a jedi would tell you, for the meme potential is far too strong. Im really just typing words out trying to fill space to see what happens. Fuck yeah send it
-        Have you ever heard the tale of dark plageous the wise, its not a story a jedi would tell you, for the meme potential is far too strong. Im really just typing words out trying to fill space to see what happens. Fuck yeah send it
-        </div>
-        This is another one
-        <div>
-        Have you ever heard the tale of dark plageous the wise, its not a story a jedi would tell you, for the meme potential is far too strong. Im really just typing words out trying to fill space to see what happens. Fuck yeah send it
-        Have you ever heard the tale of dark plageous the wise, its not a story a jedi would tell you, for the meme potential is far too strong. Im really just typing words out trying to fill space to see what happens. Fuck yeah send it
-        Have you ever heard the tale of dark plageous the wise, its not a story a jedi would tell you, for the meme potential is far too strong. Im really just typing words out trying to fill space to see what happens. Fuck yeah send it
-        Have you ever heard the tale of dark plageous the wise, its not a story a jedi would tell you, for the meme potential is far too strong. Im really just typing words out trying to fill space to see what happens. Fuck yeah send it
-        Have you ever heard the tale of dark plageous the wise, its not a story a jedi would tell you, for the meme potential is far too strong. Im really just typing words out trying to fill space to see what happens. Fuck yeah send it
-        </div>
-    </article>
-    <nav>Here's where my progress will be</nav>
+    <div class="jumbotron">
+      <h1>Joel Straatman</h1>
+      <p>Software Developer, Endurance Athlete, Music Enthusiast, Human Being</p>
+    </div>
   </div>
-  <footer>
-    Here are some links<br>
-    <%= link_to 'about', about_path %>
-  </footer>
 </body>
